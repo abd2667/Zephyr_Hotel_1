@@ -1,0 +1,179 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: rgb(17, 17, 16);
+}
+
+/* Header and Navigation */
+header {
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+#zephyr{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f4a261;
+    font-family: cursive;
+}
+
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+
+.nav-links a {
+    
+    color: #fff;
+    text-decoration: none;
+    
+    font-weight: bolder;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+
+#nav-position{
+    float: right;
+}
+
+
+/* Video Section */
+.video-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(0,0,0,0.25);
+    filter: brightness(75%);
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    
+    
+}
+
+.overlay h1 {
+    
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.overlay p {
+    
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+.hotel-traditions {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.hotel-traditions h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.hotel-traditions p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.tradition-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.tradition-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tradition-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tradition-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tradition-item h3 {
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: #222;
+}
+
+.tradition-item p {
+    font-size: 1rem;
+    margin: 0 1rem 1rem;
+    color: #666;
+}
+

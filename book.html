@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Room | &#127963 Zephyr Hotel</title>
+    <link rel="stylesheet" href="bookstyle.css">
+    <script defer src="bookscript.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">&#127963 Zephyr Hotel</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="book.html" class="active">Book a Room</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Booking Section -->
+    <section class="booking-form-section">
+        <div class="form-container">
+            <h1 style="text-decoration: underline;">Book Your Stay</h1>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" name="guests" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="arrival">Arrival Date</label>
+                    <input type="date" id="arrival" name="arrival" required>
+                </div>
+                <div class="form-group">
+                    <label for="departure">Departure Date</label>
+                    <input type="date" id="departure" name="departure" required>
+                </div>
+                <div class="form-group">
+                    <label for="rooms">Number of Rooms</label>
+                    <input type="number" id="rooms" name="rooms" min="1" required>
+                </div>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Room Showcase -->
+    <section class="gallery">
+        <h2>Our Rooms</h2>
+        <div class="gallery-item">
+            <img src="Rooms/1room.jpg" alt="Room 1">
+            <p>Luxurious King Suite with ocean view.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rooms/2room.jpg" alt="Room 2">
+            <p>Cozy Deluxe Room with modern amenities.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rooms/3room.jpg" alt="Room 3">
+            <p>Spacious Family Room with a private balcony.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rooms/4room.jpg" alt="Room 4">
+            <p>Executive Suite designed for business travelers.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rooms/5room.jpg" alt="Room 5">
+            <p>Classic Room with warm and elegant decor.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rooms/6room.jpg" alt="Room 6">
+            <p>Luxury Villa with private pool and garden.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rooms/7room.jpg" alt="Room 7">
+            <p>Penthouse Suite with panoramic city views.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rooms/9room.jpg" alt="Room 8">
+            <p>Honeymoon Suite with romantic ambiance.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rooms/11room.jpg" alt="Room 9">
+            <p>Accessible Room designed for comfort and ease.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rooms/12room.jpg" alt="Room 10">
+            <p>Junior Suite with modern luxury.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Zephyr Hotel. All rights reserved.</p>
+    </footer>
+</body>
+</html>

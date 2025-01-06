@@ -1,0 +1,163 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #333;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f4a261;
+    font-family: cursive;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header .nav-links li a:hover,
+header .nav-links li a.active {
+    color: #f4a261;
+}
+#section-img{
+    background: url('https://images.pexels.com/photos/10914967/pexels-photo-10914967.jpeg') no-repeat center center/cover;
+}
+
+/* Hero Section */
+.contact-hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    
+    color: #fff;
+}
+
+.contact-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-hero p {
+    font-size: 1.2rem;
+}
+
+/* Contact Details Section */
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    text-align: center;
+    gap: 2rem;
+}
+
+.contact-details .details p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-details .social-media a {
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+
+.contact-details .social-media img {
+    width: 40px;
+    transition: transform 0.3s;
+}
+
+.contact-details .social-media img:hover {
+    transform: scale(1.2);
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    padding: 2rem;
+    background: #333;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+form .form-group input,
+form .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.75rem 2rem;
+    background: #f4a261;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #e76f51;
+}
+
+/* Map Section */
+.map {
+    padding: 2rem;
+    background: #333;
+    text-align: center;
+}
+
+.map h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
